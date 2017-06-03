@@ -5,5 +5,13 @@
 	<h1 class="post-title">{{title}}</h1>
 	{{content}}
 	{{> share}}
+
+	{{!-- Email subscribe form at the bottom of the page --}}
+    {{#if @labs.subscribers}}
+    <section class="subscribe-box">
+        <p>Get the latest posts delivered right to your inbox.</p>
+        {{subscribe_form placeholder="e.g. john.doe@example.com"}}
+    </section>
+    {{/if}}
 </article>
 {{/post}}

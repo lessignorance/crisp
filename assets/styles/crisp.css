@@ -228,6 +228,19 @@ h3.post-title {
 	margin-bottom:1em;
 	font-size:0.8em;
 }
+.subscribe-box {
+	font-size: 0.8em;
+	border: dashed 1px #1287a8;
+	margin: 1.5em 0;
+	padding: 0 0 1em 1em;
+}
+.subscribe-box input.subscribe-email {
+	width: 20em;
+}
+.subscribe-box button {
+	padding: 0.5em;
+	margin: 1em 0 0.4em 0;
+}
 footer a {
 	font-weight:300;
 	color:#888;
