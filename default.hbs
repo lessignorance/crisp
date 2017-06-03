@@ -38,9 +38,9 @@
 	</head>
 	<body class="{{body_class}}">
 		<header id="header">
-			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
 			<p id="blog_desc">{{@blog.description}}</p>
+			{{> follow}}
 			{{navigation}}
 		</header>
 		<main id="content">
